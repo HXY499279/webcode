@@ -1,0 +1,186 @@
+*{
+    background-color: rgb(186, 222, 243);
+    font-size: 18PX;
+    font-weight: 500;
+}
+.buju{
+    text-align: center;
+}
+/* top */
+.top{
+    padding-top: 20PX;
+    width: 100vw;
+    height: 6vh;
+}
+.back{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 1vh;
+    margin-left: 1Vh;
+}
+/* middle */
+.middle{
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+}
+/* middle part 1 */
+.mid{
+    margin: 0 auto;
+    align-self: center;
+}
+
+.middle_input{
+    padding:0 12vw 0 2.5VW;
+    width: 70vw;
+    height: 4vh;
+    position: relative;
+    background-color: white;
+    border-radius: 15PX;
+    border: 3PX solid silver;
+}
+.input{
+    outline: none;
+    font-size: 25PX;
+    width: 70vw;
+    height: 4vh;
+    border: 0;
+    background-color: transparent;
+}
+.i{
+    background-color: transparent;
+    position: absolute;
+    right: 0PX;
+    top: 50%;
+    transform:translate(-50%,-50%);
+    color: rgb(150, 150, 150);
+}
+.history{
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    border-radius: 8PX;
+    left: 0;
+    top: 4.6vh;
+    box-shadow: 0 2px 4px rgba(0,0,0,.16);
+    display: none;
+}
+.history_ul{
+    padding: 8PX 0;
+    background-color: white;
+    border-radius: 8PX;
+}
+.history_ul li{
+    position: relative;
+    background-color: white;
+    font-size: 16PX;
+    text-align: start;
+    height: 2Vh;
+    line-height: 2VH;
+    padding: 6PX 2.5vw;
+}
+.history_li_span{
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: white;
+}
+.X{
+    position: absolute;
+    top: 6PX;
+    right: 2.5vw;
+}
+/* middle part 2 */
+.second{
+    position: relative;
+    width: 95vw;
+}
+.hang{
+    display: flex;
+    justify-content: space-between;
+    padding: 20PX 0;
+    border-bottom:1PX rgb(202, 202, 202) solid ;
+}
+.hang div{
+    position: absolute;
+}
+.hang div:nth-child(1){
+    left: 0;
+}
+.hang div:nth-child(2){
+    width: 26vw;
+    left: 37vw;
+    right: 37vw;
+}
+.hang div:nth-child(3){
+    right: 0;
+}
+/* middle part 3 */
+.temperature{
+    font-size: 60PX;
+    margin-bottom: 15PX;
+}
+.cloud{
+    font-size: 30PX;
+    margin: 15PX;
+}
+.wind{
+    margin-bottom: 50PX;
+}
+.tip{
+    width: 80vw;
+}
+/* middle part 4 */
+.fourth{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box{
+    position: relative;
+    width: 50vw;
+    height: 26vh;
+    box-sizing: border-box;
+}
+.box:nth-child(2) .pai:nth-child(3){
+    margin-bottom: 2.5vh;
+}
+.box:nth-child(4) .pai:nth-child(3){
+    margin-bottom: 2.6vh;
+}
+.left{
+    border:1PX solid silver;
+    border-left: 0PX;
+}
+.right{
+    border:1PX solid silver;
+    border-right: 0PX;
+}
+.pai:not(:nth-child(3)){
+    margin: 2.5Vh 0vh;
+}
+.pai:nth-child(2){
+    font-size: 12PX;
+    line-height: 18PX;
+}
+.pai:nth-child(3){
+    width: 48VW;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 2vh;
+}
+/* bottom */
+.bottom{
+    width: 100vw;
+    height: 9vh;
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    margin: 0 10PX;
+
+}
+.on{
+    color: orange;
+}

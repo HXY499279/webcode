@@ -1,0 +1,131 @@
+/* 首栏 */
+.header span{
+    font-size: 14PX;
+    
+}
+.shoulan{
+    background-image:url(https://i0.hdslb.com/bfs/vc/c60fe2b9198b5e5bff2a95984e6e4713d437850a.jpg);
+    background-size: cover;
+    height: 160PX;
+    position: relative;
+    overflow: hidden;
+    transition: all 1S;
+}
+.shoulan:hover{
+    background-image: url(https://i0.hdslb.com/bfs/vc/da55fab2e559b4458ece1f92b9060d6e1bccaac7.jpg);
+}
+.shoulan-position{
+    position: absolute;
+    z-index: 9999;
+    left: 0PX;
+    right: 0PX;
+}
+.shoulan-flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 10PX 24PX;
+    height: 36PX;
+    line-height: 36PX;
+}
+.shoulan-shuixiaguding{
+    top: 56PX;
+    position: relative;
+    width: 1060PX;
+    margin: 0 auto;
+}
+.shoulan-shuixiaguding img{
+    transition: all,.3S;
+}
+.shoulan-shuixiaguding img:hover{
+    transform: scale(1.1);
+}
+.diyibufen-liebiao{
+    display: flex;
+    justify-content: space-between;
+    width: 430px;
+    height: 36px;
+}
+.diyibufen-liebiao *{
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+.shoulan-dierbufen{
+    position: relative;
+    background-color: white;
+    height: 42PX;
+    padding-left: 10PX;
+    outline: none;
+    border: none;
+    border-radius: 3PX
+}
+.shoulan-dierbufen *{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+.shoulan-dierbufen1{
+    height: 40PX;
+    width: 500px;
+    outline: none;
+    border: none;
+    border-radius: 3PX
+}
+.shoulan-dierbufen2{
+    position: absolute;
+    text-align: center;
+    background-color:rgb(231,231,231);
+    width: 45px;
+    height: 42PX;
+    overflow: hidden;
+    border-radius: 3PX;
+    cursor: pointer;
+    right: 0;
+}
+.shoulan-dierbufen2 img{
+    width: 40px;
+    height: 42PX;
+}
+.shoulan-dierbufen2:hover .sousuoi{
+    color: rgb(0, 161, 214);
+}
+.shoulan-disanbufen ul{
+    width: 221px;
+    height: 37px;
+}
+.shoulan-disanbufen *{
+    height: 36PX;
+    line-height: 36PX;
+    display: inline-block;
+    vertical-align: middle;
+}
+.shoulan-disanbufen ul{
+    display: inline-block;
+    list-style: none;
+}
+.liebiao-item{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: rgba(46, 44, 44, 0.89);
+}
+.denglutupian{
+    width: 30PX;
+    height:30PX;
+    border: 1PX solid rgb(197, 197, 197);
+    border-radius: 30PX;
+}
+.tougao{
+    height: 36PX;
+    vertical-align: middle;
+    width: 90PX;
+    background-color:#fb7299;
+    border-radius: 2PX;
+    outline: none;
+    border:  #fb7299 solid 1PX;
+    margin-left: 14PX;
+    cursor: pointer;
+}
+
+

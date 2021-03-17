@@ -1,0 +1,22 @@
+p{
+    text-align: center;
+}
+div{
+    display: flex;
+    justify-content: space-around;
+    width: 300PX;
+    position: absolute;
+    bottom: 130PX;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+        
+}
+button{
+    width: 100px;
+    height: 50PX;
+    border-radius: 5PX;
+    border: lightgray solid 1px;
+    outline: none;
+    
+}

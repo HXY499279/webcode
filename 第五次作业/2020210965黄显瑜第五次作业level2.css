@@ -1,0 +1,20 @@
+#text{
+    width: 350PX;
+    height: 120PX;
+    border: 4,solid,;
+}
+#btn{
+    width:90PX ;
+    height: 40PX;
+    border-radius: 5PX;
+    border: lightgray solid 1px;
+    outline: none;
+}
+#table{
+    margin: 0,100PX;
+    border: solid,3PX;
+}
+.liuyanban{
+    color: rgb(228, 15, 104);
+    font-size: 50PX;
+}

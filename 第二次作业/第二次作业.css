@@ -1,0 +1,103 @@
+.A1{
+    background-color: rgb(25, 48, 88);
+}
+.A21{
+    height: 600PX;
+    width: 1000PX;
+    margin: 0 auto;
+
+}
+.A2{
+    width: 1000PX;
+    margin: 0 auto;
+
+}
+.first{
+    
+    height: 490PX;
+
+}
+.content{
+    padding-top: 10PX;
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    
+    
+    line-height: 30PX;
+    height: 30PX;
+
+}
+a{
+    color:rgb(212, 215, 218);
+    text-decoration:none;
+    padding-left: 20PX;
+}
+.img{
+    padding-left: 20pX;
+}
+.login{
+    background-color: rgb(228, 13, 13);
+    border-radius: 10PX;
+    border: 0;
+    outline: none;
+    height: 30PX;
+    color: rgb(245, 167, 66);
+    width: 100PX;
+    text-align: center;
+    margin-left: 20PX;
+}
+.word{
+    text-align: center;
+}
+.p1{
+    margin: 150PX 0PX 0PX;
+    font-size: 50PX;
+    color: white;
+    font-family: 微软雅黑;
+}
+.p2{
+    margin: 0 0 20PX 0;
+    font-size: 4PX;
+    color: white;
+}
+.getstart{
+    color: rgb(245, 167, 66);
+    outline: none;
+    background-color: rgb(228, 13, 13);
+    border-radius: 30PX;
+    border: 0;
+    width: 200PX;
+    height: 50PX;
+    margin: 0PX auto;
+}
+.box1{
+    text-align: center;
+    margin: 50PX 0PX;
+}
+.p3{
+    font-size: 40PX;
+    margin-bottom: 0;
+}
+.p4{
+    font-size: 2PX;
+    color: rgb(221, 215, 215);
+}
+.box2{
+    margin: 15PX 0PX;
+    display: flex;
+    justify-content: space-around;
+}
+.box3{
+    text-align: center;
+    width: 200PX;
+}
+.p5{
+    font-size: 20PX;
+    color: rgb(218, 202, 63);
+}
+.p6{
+    font-size: 1PX;
+    color: rgb(221, 215, 215);
+}

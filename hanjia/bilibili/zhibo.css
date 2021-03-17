@@ -1,0 +1,212 @@
+/* 直播 */
+.zhibo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40PX;
+}
+/* 直播左边 */
+.zhibo-left{
+    width: 720PX;
+}
+/* 直播左边上*/
+.zhibo-left-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16PX;
+}
+/* 直播左边上左 */
+.zhibo-left-top-left{
+    height: 36PX;
+}
+.zhibo-left-top-left *{
+    vertical-align: middle;
+}
+.zhibo-left-top-left img{
+    height: 26PX;
+    width: 35PX;
+    margin-right: 6PX;
+}
+.zhibo-left-top-left span{
+    display: inline-block;
+    height: 36PX;
+    line-height: 36PX;
+    font-size: 12PX;
+}
+.zhibo-left-top-left a{
+    margin-right: 20PX;
+}
+
+/* 直播左边上右 */
+.zhibo-left-top-right{
+    height: 36PX;
+    line-height: 36PX;
+}
+.zhibo-left-top-right-gd , .zhibo-left-top-right-hyh{
+    display: inline-block;
+    align-items: center;
+    cursor: pointer;
+    height: 22px;
+    width: 65PX;
+    text-align: center;
+    border: 1px solid silver;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 200PX;
+    color: #505050;
+    line-height: 22px;
+    outline: none;
+    transition: all .2s;
+}
+.zhibo-left-top-right-gd:hover , .zhibo-left-top-right-hyh:hover{
+
+    background-color: silver;
+}
+
+/* 直播左边下面 */
+.zhibo-left-bottom-box{
+    height: 185PX;
+    width: 170PX;
+}
+.zhibo-left-bottom-box img{
+    transition: all,.3S;
+}
+.zhibo-left-bottom-box img:hover{
+    transform: scale(1.1);
+}
+.zhibo-left-bottom-box img,.zhibo-left-bottom-box div{
+    height: 120PX;
+    width: 170Px;
+    border-radius: 3PX;
+}
+.zhibo-left-bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+}
+.zhibo-left-bottom span{
+    display: inline-block;
+    height: 40Px;
+    width: 170Px;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-weight: 500;
+    padding-right: 12px;
+
+}
+/* 直播右边 */
+.zhibo-right{
+    width: 300PX;
+    height: 422PX;
+}
+/* 直播右边上 */
+.zhibo-right-top{
+    height: 36PX;
+    line-height: 36PX;
+    margin-bottom: 16PX;
+}
+.zhibo-right-top div{
+    width: 80PX;
+    height: 24PX;
+    display: inline-block;
+    margin-right: 12PX;
+    cursor: pointer
+}
+.on {
+    color: rgb(111, 202, 232);
+    border-bottom:1px solid #00a1d6;
+}
+/* 直播右边下 */
+.zhibo-right-bottom{
+    position: relative;
+}
+.zhibo-right-bottom-part{
+    position: absolute;
+}
+.zhibo-right-bottom-part div,.zhibo-right-bottom-part img{
+    width: 300PX;
+    height: 45PX;
+}
+.zhibo-right-bottom-part:nth-child(1){
+    width: 300PX;
+    height: 355px;
+}
+.zhibo-right-bottom-part-rank{
+    margin-bottom: 15PX;
+}
+.zhibo-right-bottom-part:nth-child(2){
+    width: 300PX;
+    height: 305px;
+    text-align: center;
+}
+
+.zhibo-right-bottom-ul{
+    width: 300px;
+    height: 290px;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 24Px;
+}
+.zhibo-right-bottom-ul img{
+    width: 300px;
+    height: 300px;
+}
+.zhibo-right-bottom-ul li{
+    position: absolute;
+}
+.zhibo-right-bottom-ul{
+    position: relative;
+    border-radius: 3PX;
+}
+.zhibo-right-bottom-daohangdian{
+    position: absolute;
+    z-index: 999;
+    right: 0px;
+    bottom: 0PX;
+}
+.zhibo-right-bottom-b{
+    position: absolute;
+    z-index: 999;
+    left: 0px;
+    bottom: 0PX;
+}
+.zhibo-right-bottom-b b{
+    display: block;
+    padding: 0 0 5PX 5PX;
+    text-align: center;
+    width: 200PX;
+    height: 20PX;
+    font-size: 16PX;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.zhibo-right-bottom-daohangdian span{
+    margin: 0 7PX;
+    float: left;
+    width: 10PX;
+    height: 10PX;
+    border-radius: 50%;
+    background-color:white;
+    background-clip: content-box;
+    border: 3px transparent solid;
+}
+.zhibo-right-bottom-daohangdian span:hover{
+    transition: all,0.2s;
+    background-color: rgb(0,161,214);
+    border: 3PX solid white;
+}
+.hidden{
+    display: none;
+}

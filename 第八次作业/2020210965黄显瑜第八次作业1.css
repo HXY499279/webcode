@@ -1,0 +1,83 @@
+.注册{
+    height: 60px;
+    text-align: center;vertical-align: middle;
+    font: 36PX/1.2em "正楷";
+    margin: 0 auto 20PX auto;
+}
+.文本{
+    width: 500px;
+    height:25px ;
+    border-radius: 5PX;
+    border: lightgray solid 1px;
+    outline: none;
+    margin: 14PX 0;
+}
+.地区{
+    margin: 14PX 0;
+}
+.选择{
+    width: 100px;
+    height: 28.5px;
+    border-radius: 5px;
+    border: lightgray solid 1px;
+}
+option{
+    color:lightgray
+}
+.号码{
+    width:395px;
+    height:25px ;
+    border-radius: 5px;
+    border: lightgray solid 1px;
+    outline: none;
+}
+.验证{
+    margin: 25PX 0;
+}
+.验证码{
+    width:345px;
+    height:25px ;
+    border-radius: 5px;
+    border: lightgray solid 1px;
+    outline: none;
+}
+.获取{
+    background-color: rgb(65, 197, 241);
+    width: 150Px;
+    height: 29PX;
+    border-radius: 5PX;
+    border: lightgray solid 1px;
+    outline: none;
+}
+.协议{
+    text-align: center;
+}
+a{
+    color:rgb(60, 131, 212);
+    text-decoration:none;
+}
+a:hover {
+    color:pink;
+    text-decoration:underline;
+}
+a:active {
+    color:orange;
+    text-decoration:blink;
+}
+.注册2{
+    width: 506PX;
+    height: 40PX;
+    background-color:rgb(223, 221, 221);
+    text-align: center;
+    margin: 20PX 0;
+    border-radius: 5PX;
+    border: lightgray solid 1px;
+    outline: none;
+}
+.已有{
+    text-align: right ;
+}
+body{
+    width: 506PX;
+    margin:0 auto;
+}

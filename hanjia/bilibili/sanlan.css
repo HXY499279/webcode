@@ -1,0 +1,117 @@
+.sanlan{
+    height: 230px;
+    margin-bottom: 40PX;
+    display: flex;
+    justify-content: space-between;
+}
+/* 三栏 left-ul*/
+.sanlan-ul{
+    width: 500px;
+    height: 220px;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 24Px;
+}
+.sanlan img{
+    width: 520px;
+    height: 220px;
+}
+.sanlan li{
+    position: absolute;
+}
+.sanlan ul{
+    position: relative;
+    border-radius: 3PX;
+}
+.sanlan-daohangdian{
+    position: absolute;
+    z-index: 999;
+    right: 10px;
+    bottom: 10PX;
+}
+.sanlan-daohangdian span{
+    margin: 0 3PX;
+    float: left;
+    width: 10PX;
+    height: 10PX;
+    border-radius: 50%;
+    background-color:white;
+    background-clip: content-box;
+    border: 3px transparent solid;
+}
+.sanlan-daohangdian span:hover{
+    transition: all,0.2s;
+    background-color: rgb(0,161,214);
+    border: 3PX solid white;
+}
+
+/* 三栏-right */
+.sanlan-right{
+    width: 570PX;
+    height: 220Px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.sanlan-right img{
+    width: 180PX;
+    height: 100PX;
+    border-radius: 2PX;
+}
+.sanlan-right div{
+    position: relative;
+    margin: 0 0 18PX 0;
+
+}
+.sanlan-right span{
+    width: 180PX;
+    height: 20PX;
+    border-radius: 3PX;
+    font-size: 14PX;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.sanlan-right-div:hover span{
+    height: 100Px;
+    line-height: 19PX;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: height,0.2s;
+    transition-timing-function: ease;
+    white-space: normal;
+} 
+.sanlan-right button{
+    position: absolute;
+    background-color: transparent;
+    color: transparent;
+    outline: transparent;
+    border: none;
+}
+.sanlan-right:hover button{
+    position: absolute;
+    height: 60PX;
+    width: 30PX;
+    color: white;
+    font-size: 25PX;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 0;
+    outline: none;
+    transition: all,0.3S;
+    cursor: pointer;
+    -ms-user-select: none;
+    user-select: none;
+}
+.sanlan-right button:nth-child(1){
+    bottom: 36%;
+}
+.sanlan-right button:nth-child(2){
+    bottom: 36%;
+    right: 0px;
+}

@@ -1,0 +1,103 @@
+/* 四栏 */
+.silan{
+    width: 1039PX;
+    height: 220PX;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40PX;
+}
+/* 四栏-左边 */
+.silan-left{
+    width: 720PX;
+    height: 193PX;
+    display: inline-block;
+}
+.silan-left-top {
+    height: 27PX;
+    margin-bottom: 19Px;
+
+}
+.silan-left-top-tg *{
+    vertical-align: middle;
+    display: inline-block;
+}
+.silan-left-top-tg{
+    display: inline-block;
+}
+.silan-left-top-tg img{
+    height: 26PX;
+    width: 35PX;
+    margin-right: 6PX;
+}
+.silan-left-top-tg b{
+    margin-right: 20PX;
+}
+.silan-left-top-fire{
+    display: inline-block;
+}
+.silan-left-top-fire img{
+    width: 15PX;
+    height: 15PX;
+    margin-right: 3PX;
+}
+.silan-left-top-fire a{
+    display: block;
+    height: 27PX;
+    line-height: 27PX;
+}
+.silan-left-bottom img,.silan-left-bottom div{
+    height: 120PX;
+    width: 170Px;
+}
+.silan-left-bottom{
+    display: flex;
+    justify-content: space-between;
+
+}
+.silan-left-bottom span{
+    display: inline-block;
+    height: 40Px;
+    width: 170Px;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-weight: 500;
+    padding-right: 12px;
+}
+.silan-left-bottom-2{
+    margin: 0 5PX ;
+}
+.silan-left-bottom-3{
+    margin: 0 5Px 0 0;
+}
+
+
+/* 四栏-右边 */
+.silan-right{
+    width: 300PX;
+    display: inline-block;
+}
+.silan-right-top{
+    border-radius: 3PX;
+    background-color: rgb(229, 226, 226);
+    text-align: center;
+    height: 30PX;
+    line-height: 30PX;
+    margin-bottom:15PX;
+    transition: all,.3S;
+}
+.silan-right-top:hover{
+    color: rgb(82, 181, 226);
+}
+.silan-right-bottom{
+    height: 144PX;
+}
+.silan-right-bottom img{
+    width: 300PX;
+    height: 168PX;
+}
