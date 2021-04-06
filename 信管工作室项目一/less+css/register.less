@@ -1,0 +1,339 @@
+a,button{
+    outline: none;
+    cursor: pointer;
+}
+// 混合
+.buju(@w){
+    width: @w;
+    margin: 0 auto;
+}
+.linejuzhong(@linejuzhong){
+    .@{linejuzhong} *{
+    vertical-align: middle;
+    }
+}
+.flex_justify(sb){
+    display: flex;
+    justify-content: space-between;
+}
+.flex_justify(sr){
+    display: flex;
+    justify-content: space-around;
+}
+.tijiaokuang(){
+    display: block;
+    height: 50PX;
+    width: 350PX;
+    border: 1PX rgb(219, 219, 219) solid;
+    input{
+        box-sizing: border-box;
+        border: 0;
+        height: 50PX;
+        width: 350PX;
+        padding:15PX;
+        font-size: 14PX;
+        outline: none;
+    }
+}
+.button(){
+    display: block;
+    height: 50PX;
+    width: 350PX;
+    border: 0;
+    background-color: rgb(194, 77, 141);
+    color: white;
+    font-size: 17PX;
+    margin-bottom: 20PX;
+}
+// shoubiao背景颜色切换
+.fshoubiao{
+    color: rgb(62, 0, 133); 
+}
+.sshoubiao{
+    color: rgb(199, 60, 125); 
+}
+// shoubiao背景颜色切换
+// Fw
+.fFw_u{
+    color: rgb(62, 0, 133); 
+}
+.fFw_span{
+    color: rgb(62, 0, 133);
+}
+.sFw_u{
+    color: rgb(199, 60, 125);
+}
+.sFw_span{
+    color: rgb(199, 60, 125);
+}
+// Fw
+// bigp背景颜色切换
+.fkindbp{
+    color: rgb(159, 128, 173);
+    &:hover{
+        color: rgb(238, 161, 199);
+    }
+}
+.skindbp{
+    color: rgb(238, 161, 199);
+    &:hover{
+        color: rgb(159, 128, 173);
+    }
+}
+// bigp背景颜色切换
+
+// content背景颜色切换
+.fkindc{
+    background-image: linear-gradient(to top,rgb(223, 204, 241),rgb(239, 247, 248));
+}
+.skindc{
+    background-image: linear-gradient(to top,rgb(252, 217, 243),rgb(239, 247, 248));
+}
+// content背景颜色切换
+
+// 页面TOP
+#header{
+    .buju {
+        .buju(1130PX);
+        height: 70PX;
+        line-height: $height;
+        margin-top: 15PX;
+        margin-bottom: 25PX;
+        & *{
+            vertical-align: middle;
+        }
+        .Fw_u{
+            .Fw_span{
+                font-size: 50PX;
+                font-style: italic;
+                font-weight:900;
+            }
+        }
+    }
+    .linejuzhong(buju);
+    .buju img{
+        margin: 0 30PX 0 10PX;
+    }
+    i{
+        font-size: 60PX;
+        cursor: default;
+    }
+}
+// 页面body
+#content{
+    .buju{
+        .buju(1130PX); 
+        .flex_justify(sb);
+        height: 600PX;
+        // left
+        .bigp{
+            margin-top: 100PX;
+            height: 300PX;
+            font-size: 330PX;
+            cursor: default;
+            transition: all .5S;
+        }
+        // middle
+        .girl{
+            position: relative;
+            width: 400PX;
+            height: 345PX;
+            right: -170PX;
+            top: 255PX;
+            line-height: $height;
+            transition: all .7S;
+            &:hover{
+                right: 0;
+                img{
+                    right: -48PX;
+                    opacity: 1;
+                }
+                .girl_word{
+                    right: 10PX;
+                    color: rgb(243, 105, 158);
+                }
+            }
+            .girl_word{
+                position: absolute;
+                line-height: 20PX;
+                right: -150PX;
+                top: 30PX;
+                transition: all .7S;
+                color: white;
+            }
+            img{
+                position: absolute;
+                right: -170PX;
+                bottom: 0;
+                width: 400PX;
+                color: rgb(160, 100, 100);
+                transition: all .7S;
+                opacity: 0;
+            }
+        }
+        // right
+        .form_wrap{
+            z-index: 1;
+            width: 400PX;
+            height: 570PX;
+            margin-top: 600px-$height;
+            background-color: rgb(255, 255, 255);
+            .wrap_top{
+                height: 30PX;
+                line-height: $height;
+                .flex_justify(sr);
+                padding: 25PX 40PX;
+                text-align: center;
+                #zhdl,#smdl{
+                    font-size: 25PX;
+                    color: rgb(102, 102, 102);
+                    cursor: pointer;
+
+                }
+                #zhdl{
+                    color: rgb(194, 77, 141);
+                }
+
+
+            }
+            #userForm{
+                .buju(350PX);
+                text-align: center;
+                display: block;
+                height: 300PX;
+                .form_input{
+                    .tijiaokuang();
+                    &:nth-child(1){
+                        margin-bottom: 15PX;
+                    }
+                    &:nth-child(2){
+                        margin-bottom: 30PX;
+                    }
+                }
+                button{
+                    .button();
+                }
+                a{
+                   color: rgb(102, 102, 102);
+                   &:hover{
+                    color: #c24d8d;
+                }
+                }
+                #other_login{
+                    margin:170PX 70PX 0PX 70PX;
+                    .flex_justify(sb);
+                    svg{
+                        cursor: pointer;
+                    }
+                    
+                }
+            }
+            #scan{
+                display: none;
+                text-align: center;
+                p{
+                    padding-top: 100PX;
+                }
+                img{
+                    margin-top: 15PX;
+                    width: 190PX;
+                    height: $width;
+                }
+            }
+            .close{
+                display: none;
+            }
+            .shadow{
+                position: fixed;
+                left: 0;
+                top: 0;
+                z-index: 10;
+                opacity: 1;
+                width: 100%;
+                height: $width;
+                background: rgba(211, 115, 190, 0.1);
+                backdrop-filter: saturate(180%) blur(50px);
+            }
+            .zhuce_content{
+                z-index: 15;
+                width: 800PX;
+                height: 700PX;
+                transition: all .5;
+                top: 50%;
+                left: 50%;
+                position: absolute;
+                transform:translate(-50%,-50%);
+                background-image: linear-gradient(to top,rgb(211, 185, 200),rgb(239, 247, 248));
+                border-radius:15PX;
+                text-align: center;
+                .zhuce_top{
+                    padding: 25PX;
+                    span{
+                        font-size: 40PX;
+                    }
+                    i{
+                        font-size: 42PX;
+                        cursor: default;
+                        color: rgb(62, 0, 133); 
+                    }
+                }
+                .cha{
+                    z-index: 15;
+                    font-size: 15PX;
+                    position: absolute;
+                    right: 3PX;
+                    top: -25PX;
+                    cursor: pointer;
+                }
+                form{
+                        width: 350PX;
+                        margin: 0 auto;
+                        .form_zhuce{
+                            .tijiaokuang();
+                            &:nth-child(1){
+                                margin-top: 30PX;
+                                margin-bottom: 30PX;
+                            }
+                            &:nth-child(2){
+                                margin-bottom: 30PX;
+                            }
+
+                        }
+                        button{
+                            .button();
+                        }
+                   }
+            }
+        }
+
+    }
+}
+.fenge{
+    border: 1px solid #e0e0e0;
+    background: #e0e0e0;
+}
+// 页面foot
+#footer{
+    .buju{
+        .buju(1130PX);
+        height: 80PX;
+        text-align: center;
+        margin-top: 120PX;
+        .footer_top{
+            .flex_justify(sb);
+            .buju(350PX);
+            color: #666;
+            margin-bottom: 20PX;
+            .span_word{
+                cursor: pointer;
+                &:hover{
+                    color: rgb(0, 0, 0)
+                }
+            }
+        }
+        .footer_bottom{
+            .buju(550PX);
+
+        }
+    }
+}

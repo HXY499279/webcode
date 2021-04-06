@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../tool/reset.css" type="text/css" rel="stylesheet">
+    <link href="./less+css/iconfont.css" type="text/css" rel="stylesheet">
+    <link href="./less+css/register.css" type="text/css" rel="stylesheet">
+    <style type="text/css">
+        .icon {
+           width: 1em; height: 1em;
+           font-size: 35PX;
+           vertical-align: -0.15em;
+           fill: currentColor;
+           overflow: hidden;
+        }
+    </style>
+</head>
+<body onselectstart="return false">
+    <div id="header">
+        <div class="buju">
+            <i class="iconfont shoubiao fshoubiao">&#xe740;</i>
+            <u class="Fw_u fFw_u"><span class="Fw_span fFw_span" >FirstWiki</span></u>
+        </div>
+    </div>
+    <div id="content" class="fkindc">
+        <div class="buju">
+            <div class="iconfont bigp fkindbp">&#xe61d;</div>
+            <div class="girl">
+                <span class="girl_word" style="font-weight:bold;font-size: 20PX;">欢迎学习游泳哦~</span>
+                <img src="./picture/xwx.png">
+            </div>
+            <div class="form_wrap">
+                <div class="wrap_top">
+                    <span id="zhdl">账号登陆</span>
+                    <span class="fenge"></span>
+                    <span id="smdl">扫码登陆</span>
+                </div>
+                <!-- form -->
+                <form id="userForm" action="" method="post">
+                    <label class="form_input">
+                        <input type="text" name="username" id="username" placeholder="Firstwiki ID"/>
+                        <span id="usernameError"></span>
+                    </label>
+                    <label class="form_input">
+                        <input type="password" id="passcode2" placeholder="密码"/>
+                        <span id="passcode2Error"></span>
+                    </label>
+                    <button>登陆</button>
+                    <a id="zhuce">立即注册</a> | <a>忘记密码</a>
+                    <div id="other_login">
+                        <a href="javascript:;">
+                            <svg class="icon other" aria-hidden="true">
+                                <use class="iconfont other" xlink:href="#icon-QQ"></use>
+                            </svg>
+                        </a>
+                        <a href="javascript:;">
+                            <svg class="icon other" aria-hidden="true">
+                                <use class="iconfont other" xlink:href="#icon-weixin"></use>
+                            </svg>
+                        </a>
+                        <a href="javascript:;">
+                            <svg class="icon other" aria-hidden="true">
+                                <use class="iconfont other" xlink:href="#icon-weibo"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </form>
+                <div class="shadow close"></div>
+                <div class="zhuce_content close">
+                    <i class="iconfont cha">&#xe73f;</i>
+                    <div class="zhuce_top">
+                        <i class="iconfont">&#xe740;</i>
+                        <span>FirstWiki用户注册</span>   
+                    </div>                 
+                    <form action="" method="">
+                        <label class="form_zhuce">
+                            <input type="text" placeholder="Firstwiki ID">
+                        </label>
+                        <label class="form_zhuce">
+                            <input type="text" placeholder="密码">
+                        </label>
+                        <button>立即注册</button>
+                    </form>
+                </div>
+                <!-- form -->
+                <!-- scan -->
+                <div id="scan">
+                    <p>请使用<span style="color:rgb(79, 0, 170);font-weight:bold;">FW</span>APP扫码登陆</p>
+                    <img src="./picture/HXY.png">
+                </div>
+                <!-- scan -->
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="buju">
+            <div class="footer_top">
+                <span class="span_word">简体</span>
+                <span class="fenge"></span>
+                <span class="span_word">繁体</span>
+                <span class="fenge"></span>
+                <span class="span_word">English</span>
+                <span class="fenge"></span>
+                <span class="span_word">常见问题</span>
+                <span class="fenge"></span>
+                <span class="span_word">隐私政策</span>
+            </div>
+            <div class="footer_bottom">
+                <span>&copy;Fw公司版权所有</span>
+            </div>
+        </div>
+    </div>
+<script src="./js/dom.js" type="text/javascript"></script>
+<script src="./font_2442625_3y68syc1jas/iconfont.js"></script>
+</body>
+</html>

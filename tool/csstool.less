@@ -1,0 +1,35 @@
+// 背景效果虚化透明
+.bgtransparent(){
+    backdrop-filter: saturate(180%) blur(50px);
+}
+// 清除浮动，给某个元素使用来清除这个元素浮动给下面元素带来的影响
+.clearfix(){
+    *zoom: 1;
+    &:after,&:before{
+        content: "";
+        display: table;
+
+    }
+    &:after{
+        clear: both;
+    }
+}
+// 让单排字在盒子中垂直居中
+.h_lineh(@h){
+    height: @h;
+    line-height: $height;
+}
+// 布局使用的水平居中效果
+.buju(@w){
+    width: @w;
+    margin: 0 auto;
+}
+// flex的justify-content布局
+.flex_justify(sb){
+    display: flex;
+    justify-content: space-between;
+}
+.flex_justify(sa){
+    display: flex;
+    justify-content: space-around;
+}

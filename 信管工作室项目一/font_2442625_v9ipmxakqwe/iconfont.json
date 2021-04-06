@@ -1,0 +1,51 @@
+{
+  "id": "2442625",
+  "name": "黄显瑜信管项目一",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "20646923",
+      "name": "叉",
+      "font_class": "cha-copy",
+      "unicode": "e73f",
+      "unicode_decimal": 59199
+    },
+    {
+      "icon_id": "1312068",
+      "name": "知识库",
+      "font_class": "zhishiku1",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "20647546",
+      "name": "知识库",
+      "font_class": "zhishiku-copy",
+      "unicode": "e740",
+      "unicode_decimal": 59200
+    },
+    {
+      "icon_id": "1330577",
+      "name": "QQ",
+      "font_class": "QQ",
+      "unicode": "e73e",
+      "unicode_decimal": 59198
+    },
+    {
+      "icon_id": "9917257",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e6a4",
+      "unicode_decimal": 59044
+    },
+    {
+      "icon_id": "18368075",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e68a",
+      "unicode_decimal": 59018
+    }
+  ]
+}
