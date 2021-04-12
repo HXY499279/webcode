@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../public/less+css/reset.css" type="text/css" rel="stylesheet">
+    <link href="../public/font_2442625_v9ipmxakqwe/iconfont.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="../public/less+css/register.css">
+</head>
+
+<body>
+    <div class="shadow close"></div>
+    <div class="zhuce_content close">
+        <div class="zhuce_top">
+            <i class="iconfont">&#xe740;</i>
+            <span>FirstWiki用户注册</span>
+        </div>
+        <form id="userForm" action="/register" method="POST">
+            <label class="form_zhuce">
+                    <input type="text" placeholder="Firstwiki ID" name="username" id="username">
+            </label>
+            <span class="form_zhuce" id="usernameError" style="height: 30PX;border: 0;line-height: 30PX;"></span>
+            <label class="form_zhuce">
+                    <input type="text" placeholder="密码" name="password" id="passcode1">
+            </label>
+            <span class="form_zhuce" style="height: 30PX;border: 0;line-height: 30PX;"></span>
+            <label class="form_zhuce">
+                    <input type="text" placeholder="确认密码" name="password" id="passcode2">
+            </label>
+            <span class="form_zhuce" id="passcode2Error" style="height: 30PX;border: 0;line-height: 30PX;"></span>
+            <label class="form_zhuce">
+                    <input type="text" placeholder="邮箱地址" name="email" id="email"/>
+            </label>
+            <span id="emailError" class="form_zhuce" style="height: 30PX;border: 0;line-height: 30PX;"></span>
+            <input type="button" value="立即注册" id="submit1" />
+        </form>
+    </div>
+    <script src="../public/js/verify.js" type="text/javascript"></script>
+</body>
+
+</html>

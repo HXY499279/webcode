@@ -1,0 +1,58 @@
+@import './mix.less';
+.shadow{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    opacity: 1;
+    width: 100%;
+    height: $width;
+    background: rgba(211, 115, 190, 0.1);
+    backdrop-filter: saturate(180%) blur(50px);
+}
+.zhuce_content{
+    z-index: 15;
+    width: 800PX;
+    height: 700PX;
+    transition: all .5;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform:translate(-50%,-50%);
+    background-image: linear-gradient(to top,rgb(211, 185, 200),rgb(239, 247, 248));
+    border-radius:15PX;
+    text-align: center;
+    .zhuce_top{
+        padding: 25PX;
+        span{
+            font-size: 40PX;
+        }
+        i{
+            font-size: 42PX;
+            cursor: default;
+            color: rgb(62, 0, 133); 
+        }
+    }
+    .cha{
+        z-index: 15;
+        font-size: 15PX;
+        position: absolute;
+        right: 3PX;
+        top: -25PX;
+        cursor: pointer;
+    }
+    form{
+            width: 350PX;
+            margin: 0 auto;
+            .form_zhuce{
+                .tijiaokuang();
+                &:nth-child(1){
+                    margin-top: 30PX;
+                }
+
+            }
+            #submit1{
+                .button();
+            }
+       }
+}

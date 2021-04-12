@@ -1,49 +1,7 @@
+@import './mix.less';
 a,button{
-    outline: none;
+    text-decoration: none;
     cursor: pointer;
-}
-// 混合
-.buju(@w){
-    width: @w;
-    margin: 0 auto;
-}
-.linejuzhong(@linejuzhong){
-    .@{linejuzhong} *{
-    vertical-align: middle;
-    }
-}
-.flex_justify(sb){
-    display: flex;
-    justify-content: space-between;
-}
-.flex_justify(sr){
-    display: flex;
-    justify-content: space-around;
-}
-.tijiaokuang(){
-    display: block;
-    height: 50PX;
-    width: 350PX;
-    border: 1PX rgb(219, 219, 219) solid;
-    input{
-        box-sizing: border-box;
-        border: 0;
-        height: 50PX;
-        width: 350PX;
-        padding:15PX;
-        font-size: 14PX;
-        outline: none;
-    }
-}
-.button(){
-    display: block;
-    height: 50PX;
-    width: 350PX;
-    border: 0;
-    background-color: rgb(194, 77, 141);
-    color: white;
-    font-size: 17PX;
-    margin-bottom: 20PX;
 }
 // shoubiao背景颜色切换
 .fshoubiao{
@@ -89,7 +47,7 @@ a,button{
 .skindc{
     background-image: linear-gradient(to top,rgb(252, 217, 243),rgb(239, 247, 248));
 }
-// content背景颜色切换
+// content背景颜色切换。
 
 // 页面TOP
 #header{
