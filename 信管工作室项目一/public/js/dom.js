@@ -1,3 +1,4 @@
+
 // bigp
 var content = document.getElementById("content");
 var bigp = document.getElementsByClassName("bigp")[0];
@@ -59,12 +60,21 @@ smdl.onclick = function(){
 var zhuce = document.getElementById("zhuce");
 var shadow = document.getElementsByClassName("shadow")[0];
 var zhuce_content = document.getElementsByClassName("zhuce_content")[0];
-var cha = document.getElementsByClassName("cha")[0];
 function close (){
     toggleClass(shadow,"close");
     toggleClass(zhuce_content,"close"); 
 }
 zhuce.onclick = close;
-cha.onclick = close;
 // 注册JS
 console.log(5201314)
+
+// 登陆
+var form_input = document.getElementsByClassName("form_input")
+var Error = document.getElementById('Error')
+
+form_input[0].onclick = function () {
+    Error.innerText = ""
+}
+form_input[1].onclick = function () {
+    Error.innerText = ""
+}

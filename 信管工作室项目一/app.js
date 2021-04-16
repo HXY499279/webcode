@@ -1,15 +1,21 @@
 var express = require('express')
 var router = require('./router.js')
 var bodyParser = require('body-parser')
+var session = require('express-session')
 
 var app = express()
 
 app.engine('html', require('express-art-template'))
 
-// parse application/x-www-form-urlencoded
+// 配置
 app.use(bodyParser.urlencoded({ extended: false }))
-// parse application/json
 app.use(bodyParser.json())
+app.use(session({
+    secret: 'keyboard cat',
+    resave: false,
+    saveUninitialized: true,
+    cookie: { secure: true }
+  }))
 
 app.use('/public/', express.static('./public/'))
 app.use('/static/', express.static('./static/'))

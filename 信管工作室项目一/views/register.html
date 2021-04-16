@@ -22,19 +22,19 @@
             <label class="form_zhuce">
                     <input type="text" placeholder="Firstwiki ID" name="username" id="username">
             </label>
-            <span class="form_zhuce" id="usernameError" style="height: 30PX;border: 0;line-height: 30PX;"></span>
+            <span class="form_zhuce" id="usernameError" style="height: 30PX;border: 0;line-height: 30PX;">{{ usernameerror }}</span>
             <label class="form_zhuce">
                     <input type="text" placeholder="密码" name="password" id="passcode1">
             </label>
             <span class="form_zhuce" style="height: 30PX;border: 0;line-height: 30PX;"></span>
             <label class="form_zhuce">
-                    <input type="text" placeholder="确认密码" name="password" id="passcode2">
+                    <input type="text" placeholder="确认密码" name="password2" id="passcode2">
             </label>
             <span class="form_zhuce" id="passcode2Error" style="height: 30PX;border: 0;line-height: 30PX;"></span>
             <label class="form_zhuce">
                     <input type="text" placeholder="邮箱地址" name="email" id="email"/>
             </label>
-            <span id="emailError" class="form_zhuce" style="height: 30PX;border: 0;line-height: 30PX;"></span>
+            <span id="emailError" class="form_zhuce" style="height: 30PX;border: 0;line-height: 30PX;">{{ emailerror }}</span>
             <input type="button" value="立即注册" id="submit1" />
         </form>
     </div>

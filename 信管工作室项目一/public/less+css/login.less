@@ -151,8 +151,6 @@ a,button{
                 #zhdl{
                     color: rgb(194, 77, 141);
                 }
-
-
             }
             #userForm{
                 .buju(350PX);
@@ -160,12 +158,25 @@ a,button{
                 display: block;
                 height: 300PX;
                 .form_input{
+                    position: relative;
+                    cursor: text;
                     .tijiaokuang();
                     &:nth-child(1){
                         margin-bottom: 15PX;
                     }
                     &:nth-child(2){
                         margin-bottom: 30PX;
+                    }
+                    input{
+                        position: absolute;
+                        left:0;
+                        z-index: -10;
+                    }
+                    span{
+                        position: absolute;
+                        left: 15PX;
+                        bottom: -24PX;
+                        color: red;
                     }
                 }
                 button{
