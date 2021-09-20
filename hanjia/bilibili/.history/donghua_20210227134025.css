@@ -97,6 +97,8 @@
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     font-weight: 500;
+    padding-right: 12px;
+
 }
 /* 动画右边 */
 .donghua-right{

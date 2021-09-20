@@ -72,7 +72,6 @@
 .fanju-left-bottom{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     width: 720PX;
     height: 350PX;
     overflow: auto;

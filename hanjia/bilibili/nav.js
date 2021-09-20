@@ -39,7 +39,6 @@ navlis[1].onclick = function(){
         console.log(document.documentElement.scrollTop);
         if (document.documentElement.scrollTop == 0) clearInterval(timer);
       }, 6);
-
     }
   }
 
